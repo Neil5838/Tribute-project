@@ -1,0 +1,148 @@
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+
+    margin: 0;
+    background-color: #e4e4e4;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 920px;
+    margin: 2em auto;
+
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tribute-contents {
+    padding: 2em 3em;
+}
+
+.tribute-title {
+    /* border: 1px solid magenta; */
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.tribute-title h1, p {
+    margin: 0;
+}
+
+.tribute-title h1 {
+    color: #D96C2F;
+    font-size: 2.5rem;
+}
+/* Typography */
+.tribute-title h1 {
+    font-family: "Lora", serif;
+}
+
+.tribute-title .post {
+    font-weight: 700;
+}
+
+.featured-text {
+    padding: 0 0 1em 0;
+}
+
+.featured-text span {
+    font-weight: 600;
+}
+
+.featured-text p {
+    line-height: 1.5;
+}
+
+ul li {
+    line-height: 1.5;
+}
+
+ul span {
+    font-weight: 600;
+}
+
+
+/* ==================== */
+
+.tribute-img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.tribute-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* footer */
+
+.footer {
+    border: 1px solid magenta;
+    background-color: #D96C2F;
+    color: #fff;
+    text-align: center;
+
+    padding: 1em;
+}
+.footer p {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer p span {
+    font-family: "Lora", serif;
+    font-weight: 700;
+}
+
+.footer .thankyou {
+    font-size: 0.85rem;
+    letter-spacing: .25em;
+    color: #e4e4e4;
+}
+
+@media (max-width: 675px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .tribute-contents {
+        padding: 1.5em 2em;
+    }
+
+    .tribute-title h1 {
+        font-size: 2rem;
+    }
+
+    .footer p {
+        font-size: .90rem;
+    }
+
+    .text-points h2 {
+        font-size: 1.145rem;
+    }
+   
+}
